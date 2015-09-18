@@ -21,8 +21,8 @@ class AmendingCowshed
 
 	public static void main(String args[]) throws Exception	
 	{
-		Scanner sc = new Scanner(System.in);
-		//sc = new Scanner(new FileInputStream("G:\\Android\\eclipse-java-indigo-SR2-win32\\Workspace\\SoTong\\src\\Practice\\input8.txt"));
+//		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(new FileInputStream("src/input/amendingCowshed.txt"));
 
 		int T = sc.nextInt();
 		for(int tc = 0; tc < T; tc++) 
