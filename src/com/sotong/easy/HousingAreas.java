@@ -8,7 +8,7 @@ public class HousingAreas {
 
     public static void main(String args[]) throws Exception {
 //	Scanner sc = new Scanner(System.in);
-	Scanner sc = new Scanner(new FileInputStream("input.txt"));
+	Scanner sc = new Scanner(new FileInputStream("src/input/housingAreas.txt"));
 
 	int T = sc.nextInt();
 	for (int tc = 0; tc < T; tc++) {
@@ -44,7 +44,6 @@ public class HousingAreas {
      ***********************************/
 
     // Print the answer to standard output(screen).
-
     public static void foundOne(int x, int y, int[][] data) {
 	// up
 	if (x > 0) {

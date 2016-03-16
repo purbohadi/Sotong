@@ -26,7 +26,7 @@ class SkyMap {
 
     public static void main(String args[]) throws Exception {
 	Scanner sc = new Scanner(System.in);
-	sc = new Scanner(new FileInputStream("input.txt"));
+	sc = new Scanner(new FileInputStream("src/input/skymap_input.txt"));
 	int testCases = sc.nextInt();
 
 	for (int i = 0; i < testCases; i++) {
